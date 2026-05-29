@@ -1,2 +1,1 @@
-# bad-project
-Bad Project Example
+# Bad Project Example
