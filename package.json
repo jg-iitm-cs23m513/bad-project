@@ -1,0 +1,47 @@
+{
+  "name": "decentralized-health-record-management",
+  "version": "1.0.0",
+  "description": "This is a helth record management dapp",
+  "homepage": "https://github.com/DevJayantaGhosh/Decentralized-Health-Record-Management#readme",
+  "bugs": {
+    "url": "https://github.com/DevJayantaGhosh/Decentralized-Health-Record-Management/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevJayantaGhosh/Decentralized-Health-Record-Management.git"
+  },
+  "license": "ISC",
+  "author": "Jayanta Ghosh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-in-testnet": "npx hardhat deploy-contract --network testnet"
+  },
+  "dependencies": {
+    "@hashgraph/hedera-local": "^2.4.5",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.8.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@typechain/ethers-v5": "^10.2.1",
+    "@typechain/hardhat": "^6.1.6",
+    "@types/chai": "^4.3.20",
+    "@types/mocha": "^10.0.10",
+    "chai": "^4.5.0",
+    "hardhat": "^2.23.0",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.14",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.8.3"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
